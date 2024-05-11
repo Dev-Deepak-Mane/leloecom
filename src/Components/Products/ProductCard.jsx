@@ -65,7 +65,7 @@ export default function ProductCard({ product }) {
       </Box>
       <Stack pt={10} align={"center"}>
         <Heading fontSize={"2xl"} fontFamily={"body"} fontWeight={500}>
-          {name.length > 20 ? `${name.slice(0, 20)}...` : name}
+          {name}
         </Heading>
         <Text color={"gray.500"} fontSize={"sm"} textTransform={"uppercase"}>
           {category}
