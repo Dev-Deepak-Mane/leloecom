@@ -6,6 +6,7 @@ import { Carousel } from "react-responsive-carousel";
 import backgroundBanner from "../Assests/Images/banner-02.jpg";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Flex, Heading, Text } from "@chakra-ui/react";
+
 const Home = () => {
   return (
     <>
@@ -20,6 +21,7 @@ const Home = () => {
         {/* Hero Section */}
 
         {/* Promotions Section */}
+
         <Box bg="gray.100" p={4}>
           <Flex justify="center" align="center">
             <Text fontSize="lg" mr={2}>
